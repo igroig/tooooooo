@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+    <include layout="@layout/content"/>
+
+    <android.support.v7.widget.Toolbar
+
+android:layout_alignParentBottom="true"
+        android:id="@+id/toolbar_top"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize" >
+
+        <TextView
+            android:textColor="#333333"
+            android:id="@+id/toolbarTv4"
+
+android:textSize="20dp"
+            android:text="sddssdsd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/toolbarTv3"
+
+            android:textSize="20dp"
+            android:textColor="#555555"
+            android:text="sddssdsd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:textSize="20dp"
+
+
+            android:textColor="#999999"
+            android:id="@+id/toolbarTv2"
+
+            android:text="sddssdsd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/toolbarTv"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+
+            android:text="sddssdsd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        </android.support.v7.widget.Toolbar>
+
+
+
+</RelativeLayout>
